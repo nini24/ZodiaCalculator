@@ -1,0 +1,62 @@
+html {
+    text-align: center;
+    background-image: url('./cool-background\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'montserrat','Arial';
+    color: rgb(182, 7, 7);
+    font-size: 1.8em;
+}
+
+label {
+    font-family: 'montserrat', 'Arial';
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 10px;
+    color: rgb(110, 7, 27);
+}
+
+.first{
+    margin-bottom: 20px;
+}
+
+input[type =text] {
+    padding-top: 5px;
+    width: 150px;
+    font-family:'montserrat', 'Arial'; 
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+}
+
+input[type=button] {
+    margin-top: 15px;
+    background: none;
+    border-color: tomato;
+    font-family: 'montserrat';
+    width: 90px;
+}
+
+button {
+    font-family: 'montserrat';
+    border-color: rgb(161, 31, 7);
+    background-color: rgb(241, 236, 241);
+}
+h3 {
+    font-family: 'montserrat';
+    font-size: large;
+    color: rgb(185, 33, 7);
+
+}
+
+@media screen and (max-width:600px) {
+    h2 {
+        font-size: 20px;
+    }
+}
